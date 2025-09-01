@@ -1,27 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-auto-wdl",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Meteor Auto World Downloader",
+  "description": "Ceaseless watcher, turn your gaze upon this wretched thing.",
   "authors": [
-    "seasnail"
+    "N3rdL0rd"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/N3rdL0rd/meteor-auto-wdl"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.n3rdl0rd.autowdl.AutoWDLAddon"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "20,255,24"
   },
   "depends": {
     "java": ">=21",
